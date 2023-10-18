@@ -43,9 +43,7 @@
 TIM_HandleTypeDef htim2;
 
 /* USER CODE BEGIN PV */
-enum STATUS {
-	EN3, EN2, EN1, EN0
-}status;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -53,51 +51,11 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_TIM2_Init(void);
 /* USER CODE BEGIN PFP */
-void enable_led();
-void display7SEG(int);
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-void enable_led(){
-	if (status == EN0){
-		HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, RESET);
-		HAL_GPIO_WritePin(EN1_GPIO_Port, EN1_Pin, SET);
-		HAL_GPIO_WritePin(EN2_GPIO_Port, EN2_Pin, SET);
-		HAL_GPIO_WritePin(EN3_GPIO_Port, EN3_Pin, SET);
-
-		display7SEG(1);
-		status = EN3;
-	}
-	else if (status == EN1){
-		HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, SET);
-		HAL_GPIO_WritePin(EN1_GPIO_Port, EN1_Pin, RESET);
-		HAL_GPIO_WritePin(EN2_GPIO_Port, EN2_Pin, SET);
-		HAL_GPIO_WritePin(EN3_GPIO_Port, EN3_Pin, SET);
-
-		display7SEG(2);
-		status = EN0;
-	}
-	else if (status == EN2){
-		HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, SET);
-		HAL_GPIO_WritePin(EN1_GPIO_Port, EN1_Pin, SET);
-		HAL_GPIO_WritePin(EN2_GPIO_Port, EN2_Pin, RESET);
-		HAL_GPIO_WritePin(EN3_GPIO_Port, EN3_Pin, SET);
-
-		display7SEG(3);
-		status = EN1;
-	}
-	else {
-		HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, SET);
-		HAL_GPIO_WritePin(EN1_GPIO_Port, EN1_Pin, SET);
-		HAL_GPIO_WritePin(EN2_GPIO_Port, EN2_Pin, SET);
-		HAL_GPIO_WritePin(EN3_GPIO_Port, EN3_Pin, RESET);
-
-		display7SEG(4);
-		status = EN2;
-	}
-}
-
 void display7SEG(int counter){
 
 	if (counter == 0){
@@ -361,25 +319,18 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-int counter1 = 50;
-int counter2 = 100;
+int counter = 100;
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef* htim){
-	if (counter1 > 0){
-		counter1--;
-		if (counter1 <= 0){
-			counter1 = 50;
-			enable_led(status);
-			HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
-		}
-	}
-	if (counter2 > 0){
-		counter2--;
-		if (counter2 <= 0){
-			counter2 = 100;
-			HAL_GPIO_TogglePin(DOT_GPIO_Port, DOT_Pin);
+	if (counter > 0){
+		counter--;
+		if (counter <= 0){
+			counter = 100;
+			HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
 		}
 	}
 }
+
+
 
 /* USER CODE END 4 */
 
