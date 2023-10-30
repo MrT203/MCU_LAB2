@@ -360,9 +360,9 @@ int counter_led = 25;
 int counter_dot = 100;
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef* htim){
 	if (counter_led > 0){
-		counter_led--;
-		if (counter_led <= 0){
-			counter_led = 25;
+		counter--;
+		if (counter <= 0){
+			counter = 25;
 			update7SEG(index_led++);
 			index_led %= MAX_LED;
 		}
