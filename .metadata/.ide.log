@@ -2494,3 +2494,76 @@
 2023-10-30 19:41:52,659 [INFO] IPUIPlugin:74 - create IPUIPlugin
 2023-10-30 19:41:52,659 [INFO] IPUIPlugin:74 - create IPUIPlugin
 2023-10-30 19:41:52,797 [INFO] OpenFileManager:333 - Restore cursor
+2023-10-30 20:18:58,334 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 723299520 Bytes (917504000)
+2023-10-30 20:18:59,170 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 744504672 Bytes (917504000)
+2023-10-30 20:19:01,618 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 756942896 Bytes (917504000)
+2023-10-30 20:19:02,124 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2023-10-30 20:19:02,124 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2023-10-30 20:19:02,124 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2023-10-30 20:19:02,124 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2023-10-30 20:19:02,124 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2023-10-30 20:19:02,124 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2023-10-30 20:19:02,532 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\MXTmpFiles\license.tmp_save
+2023-10-30 20:19:02,983 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\MXTmpFiles\license.tmp
+2023-10-30 20:19:03,176 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\MXTmpFiles\gpio.tmp_save
+2023-10-30 20:19:03,342 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\MXTmpFiles\gpio.tmp
+2023-10-30 20:19:03,742 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\Core\Src\stm32f1xx_it.c_save
+2023-10-30 20:19:03,926 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\Core\Src\stm32f1xx_it.c
+2023-10-30 20:19:03,941 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\Core\Inc\stm32f1xx_it.h_save
+2023-10-30 20:19:04,031 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\Core\Inc\stm32f1xx_it.h
+2023-10-30 20:19:04,059 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\Core\Src\stm32f1xx_hal_msp.c_save
+2023-10-30 20:19:04,200 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\Core\Src\stm32f1xx_hal_msp.c
+2023-10-30 20:19:04,251 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\MXTmpFiles\system.tmp_save
+2023-10-30 20:19:04,338 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\MXTmpFiles\system.tmp
+2023-10-30 20:19:04,364 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\Core\Inc\stm32f1xx_hal_conf.h_save
+2023-10-30 20:19:04,476 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\Core\Inc\stm32f1xx_hal_conf.h
+2023-10-30 20:19:04,500 [WARN] IPConfigManager:3148 - IP not found : TIM
+2023-10-30 20:19:04,542 [WARN] CodeGenerator:3268 - IP not found : null
+2023-10-30 20:19:04,565 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\Core\Inc\main.h_save
+2023-10-30 20:19:04,699 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\Core\Inc\main.h
+2023-10-30 20:19:04,732 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\Core\Src\main.c_save
+2023-10-30 20:19:04,884 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\Core\Src\main.c
+2023-10-30 20:19:05,903 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 153mS.
+2023-10-30 20:19:05,909 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2023-10-30 20:19:06,412 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2023-10-30 20:19:06,492 [INFO] ApiDbMcu:468 - Load IP Config File for FATFS
+2023-10-30 20:19:06,533 [INFO] ApiDbMcu:468 - Load IP Config File for FREERTOS
+2023-10-30 20:19:06,582 [INFO] ApiDbMcu:468 - Load IP Config File for USB_DEVICE
+2023-10-30 20:19:09,884 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 3975mS.
+2023-10-30 20:19:09,884 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2023-10-30 20:19:09,884 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2023-10-30 20:41:02,103 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 780562192 Bytes (1039138816)
+2023-10-30 20:41:03,306 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 796466568 Bytes (1039138816)
+2023-10-30 20:41:05,370 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 784879352 Bytes (1039138816)
+2023-10-30 20:41:05,716 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2023-10-30 20:41:05,716 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2023-10-30 20:41:05,716 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2023-10-30 20:41:05,716 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2023-10-30 20:41:05,716 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2023-10-30 20:41:05,716 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2023-10-30 20:41:06,108 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\MXTmpFiles\license.tmp_save
+2023-10-30 20:41:06,184 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\MXTmpFiles\license.tmp
+2023-10-30 20:41:06,221 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\MXTmpFiles\gpio.tmp_save
+2023-10-30 20:41:06,319 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\MXTmpFiles\gpio.tmp
+2023-10-30 20:41:06,411 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\Core\Src\stm32f1xx_it.c_save
+2023-10-30 20:41:06,506 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\Core\Src\stm32f1xx_it.c
+2023-10-30 20:41:06,521 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\Core\Inc\stm32f1xx_it.h_save
+2023-10-30 20:41:06,595 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\Core\Inc\stm32f1xx_it.h
+2023-10-30 20:41:06,605 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\Core\Src\stm32f1xx_hal_msp.c_save
+2023-10-30 20:41:06,726 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\Core\Src\stm32f1xx_hal_msp.c
+2023-10-30 20:41:06,742 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\MXTmpFiles\system.tmp_save
+2023-10-30 20:41:06,805 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\MXTmpFiles\system.tmp
+2023-10-30 20:41:06,821 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\Core\Inc\stm32f1xx_hal_conf.h_save
+2023-10-30 20:41:06,930 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\Core\Inc\stm32f1xx_hal_conf.h
+2023-10-30 20:41:06,946 [WARN] IPConfigManager:3148 - IP not found : TIM
+2023-10-30 20:41:06,946 [WARN] CodeGenerator:3268 - IP not found : null
+2023-10-30 20:41:06,961 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\Core\Inc\main.h_save
+2023-10-30 20:41:07,067 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\Core\Inc\main.h
+2023-10-30 20:41:07,074 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\Core\Src\main.c_save
+2023-10-30 20:41:07,210 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\Core\Src\main.c
+2023-10-30 20:41:08,081 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 67mS.
+2023-10-30 20:41:08,082 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2023-10-30 20:41:08,523 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2023-10-30 20:41:10,114 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2032mS.
+2023-10-30 20:41:10,114 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2023-10-30 20:41:10,114 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
