@@ -2019,3 +2019,38 @@
 2023-10-30 15:13:01,125 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 1497mS.
 2023-10-30 15:13:01,140 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
 2023-10-30 15:13:01,140 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2023-10-30 15:54:28,783 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 925563144 Bytes (1071644672)
+2023-10-30 15:54:29,615 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 770652288 Bytes (1071644672)
+2023-10-30 15:54:30,934 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 762225928 Bytes (1071644672)
+2023-10-30 15:54:31,178 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2023-10-30 15:54:31,178 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2023-10-30 15:54:31,178 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2023-10-30 15:54:31,178 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2023-10-30 15:54:31,178 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2023-10-30 15:54:31,178 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2023-10-30 15:54:31,385 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\MXTmpFiles\license.tmp_save
+2023-10-30 15:54:31,462 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\MXTmpFiles\license.tmp
+2023-10-30 15:54:31,509 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\MXTmpFiles\gpio.tmp_save
+2023-10-30 15:54:31,572 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\MXTmpFiles\gpio.tmp
+2023-10-30 15:54:31,636 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\Core\Src\stm32f1xx_it.c_save
+2023-10-30 15:54:31,699 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\Core\Src\stm32f1xx_it.c
+2023-10-30 15:54:31,714 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\Core\Inc\stm32f1xx_it.h_save
+2023-10-30 15:54:31,777 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\Core\Inc\stm32f1xx_it.h
+2023-10-30 15:54:31,785 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\Core\Src\stm32f1xx_hal_msp.c_save
+2023-10-30 15:54:31,865 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\Core\Src\stm32f1xx_hal_msp.c
+2023-10-30 15:54:31,865 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\MXTmpFiles\system.tmp_save
+2023-10-30 15:54:31,919 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\MXTmpFiles\system.tmp
+2023-10-30 15:54:31,929 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\Core\Inc\stm32f1xx_hal_conf.h_save
+2023-10-30 15:54:32,008 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\Core\Inc\stm32f1xx_hal_conf.h
+2023-10-30 15:54:32,024 [WARN] IPConfigManager:3148 - IP not found : TIM
+2023-10-30 15:54:32,024 [WARN] CodeGenerator:3268 - IP not found : null
+2023-10-30 15:54:32,024 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\Core\Inc\main.h_save
+2023-10-30 15:54:32,104 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\Core\Inc\main.h
+2023-10-30 15:54:32,112 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Workspace\GIT\MCU_LAB2\example\Core\Src\main.c_save
+2023-10-30 15:54:32,197 [INFO] CodeEngine:257 - Generated code: D:\Workspace\GIT\MCU_LAB2\example\Core\Src\main.c
+2023-10-30 15:54:32,755 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 54mS.
+2023-10-30 15:54:32,755 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2023-10-30 15:54:33,104 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2023-10-30 15:54:34,302 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 1547mS.
+2023-10-30 15:54:34,302 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2023-10-30 15:54:34,302 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
