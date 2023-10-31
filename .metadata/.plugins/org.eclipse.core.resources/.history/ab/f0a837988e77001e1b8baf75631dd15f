@@ -303,10 +303,10 @@ int main(void)
 		updateLEDMatrix(index_led_matrix++);
 		index_led_matrix %= MAX_LED_MATRIX;
 		if (index_led_matrix == 0){
-			matrix_buffer[7] = matrix_buffer[0];
+			matrix_buffer[index_led_matrix] = matrix_buffer[7];
 		}
 		else {
-			matrix_buffer[index_led_matrix-1] = matrix_buffer[index_led_matrix];
+			matrix_buffer[index_led_matrix] = matrix_buffer[index_led_matrix - 1];
 		}
 		setTimer3(5);
 	}

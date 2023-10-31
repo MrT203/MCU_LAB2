@@ -302,12 +302,12 @@ int main(void)
 	if (timer3_flag == 1){
 		updateLEDMatrix(index_led_matrix++);
 		index_led_matrix %= MAX_LED_MATRIX;
-		if (index_led_matrix == 0){
-			matrix_buffer[7] = matrix_buffer[0];
-		}
-		else {
-			matrix_buffer[index_led_matrix-1] = matrix_buffer[index_led_matrix];
-		}
+//		if (index_led_matrix == 0){
+//			matrix_buffer[index_led_matrix] = matrix_buffer[7];
+//		}
+//		else {
+//			matrix_buffer[index_led_matrix] = matrix_buffer[index_led_matrix - 1];
+//		}
 		setTimer3(5);
 	}
     /* USER CODE END WHILE */

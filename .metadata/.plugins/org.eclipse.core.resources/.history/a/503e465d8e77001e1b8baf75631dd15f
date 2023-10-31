@@ -162,6 +162,7 @@ void updateLEDMatrix(int index) {
         	HAL_GPIO_WritePin(ENM6_GPIO_Port, ENM6_Pin, SET);
         	HAL_GPIO_WritePin(ENM7_GPIO_Port, ENM7_Pin, SET);
         	display8x8Matrix(matrix_buffer[index]);
+
         }
         	break;
         case 1:{
@@ -302,12 +303,6 @@ int main(void)
 	if (timer3_flag == 1){
 		updateLEDMatrix(index_led_matrix++);
 		index_led_matrix %= MAX_LED_MATRIX;
-		if (index_led_matrix == 0){
-			matrix_buffer[7] = matrix_buffer[0];
-		}
-		else {
-			matrix_buffer[index_led_matrix-1] = matrix_buffer[index_led_matrix];
-		}
 		setTimer3(5);
 	}
     /* USER CODE END WHILE */
